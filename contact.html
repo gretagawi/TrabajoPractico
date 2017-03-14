@@ -3,43 +3,46 @@
 	<head> 
 		<meta charset="utf-8"> 
 		<title>Portfolio Greta Gawianski - Diseño Web </title>
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand:300" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+		<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	</head>
 	
 	<body>
 
 		<header> 
-			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1000px-Google_%22G%22_Logo.svg.png"> 
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1000px-Google_%22G%22_Logo.svg.png" class="logo>">  
 			<br>
 			<nav> 
-				<a href="#home">Home</a>
-				<a href="#servicios">Servicios</a>
-				<a href="#portfolio">Portfolio</a>
-				<a href="#about">About</a>
-				<a href="#contacto">Contacto</a>
+				<a href="#home" class="texto">Home</a>
+				<a href="#servicios" class="texto">Servicios</a>
+				<a href="#portfolio" class="texto">Portfolio</a>
+				<a href="#about" class="texto">About</a>
+				<a href="#contacto" class="texto">Contacto</a>
 			</nav>			
 		</header> 
 
 		
 		<section>
-			<h4>¡Escribime!</h4>
+			<h4 class="titulo">¡Escribime!</h4>
 
 			<form method="POST" action="enviar.php"> 
 
-				<label for="nombre">Nombre:</label>
-				<input type="text" name="nombre" placeholder="Escribí tu nombre" required> 
+				<label for="nombre" class="texto">Nombre:</label>
+				<input type="text" name="nombre" placeholder="Escribí tu nombre" required>  
 			
 			<br/>
 
-				<label for="correo">Email:</label>
+				<label for="correo" class="texto">Email:</label>
 				<input type="email" name="correo" placeholder="Escribí tu mail" required> 
 			<br/> 
 
-				<label for="telefono">Telefono</label> 
+				<label for="telefono" class="texto">Telefono</label> 
 				<input type="tel" name="telefono"> 
 				
 			<br/>
 				
-				<label for="interes">¿Qué estás necesitando? </label> 
+				<label for="interes" class="texto">¿Qué estás necesitando? </label> 
 				<select name="interes"> 	
 					<option value="paginaweb">Página Web</option>
 					<option value="disenoweb">Diseño Web</option>
@@ -47,7 +50,7 @@
 					</select>
 
 		 	<br/> 
-		 		<label for="mensaje">Mensaje:</label>
+		 		<label for="mensaje" class="texto">Mensaje:</label>
 		 		<textarea name="mensaje" placeholder="Escribé tu mensaje" required=""> </textarea>
 			
 			<br/> 
@@ -59,11 +62,11 @@
 
 		<footer> 
 			<nav>
-				<a href="#home">Home</a>
-				<a href="#servicios">Servicios</a>
-				<a href="#portfolio">Portfolio</a>
-				<a href="#clientes">About</a>
-				<a href="#contacto">Contacto</a> 
+				<a href="#home" class="texto">Home</a>
+				<a href="#servicios" class="texto">Servicios</a>
+				<a href="#portfolio" class="texto">Portfolio</a>
+				<a href="#clientes" class="texto>About</a>
+				<a href="#contacto" class="texto>Contacto</a> 
 			</nav>
 		</footer>
 
